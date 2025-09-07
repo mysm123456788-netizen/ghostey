@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(135deg, #4b006e, #003366);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: rgba(0,0,0,0.8);
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    height: 50px;
+}
+.contract button {
+    background: #00ffff;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.hero {
+    padding: 50px 20px;
+}
+.hero-img {
+    max-width: 300px;
+}
+.join-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff00ff;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.crying-small {
+    width: 30px;
+    display: block;
+    margin: 0 auto;
+}
+.video-gallery, .photo-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.video-item {
+    max-width: 300px;
+}
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(0,0,0,0.8);
+    position: relative;
+}
+.neon-text {
+    color: #39ff14;
+    font-weight: bold;
+}
+.made-by {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}

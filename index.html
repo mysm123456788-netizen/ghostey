@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHOSTY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/IMG_9520.png" alt="GHOSTY logo" class="logo-img">
+            <h1>GHOST<span class="y-letter">Y</span></h1>
+        </div>
+        <div class="contract">
+            <span id="contract-address">0x0000...romy</span>
+            <button onclick="copyAddress()">Copy</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="images/IMG_9520.png" alt="GHOSTY" class="hero-img">
+        <a href="#" class="join-btn">Join</a>
+    </section>
+
+    <section class="official-video">
+        <h2>Official Video</h2>
+        <video controls poster=" gvggggg"></video>
+    </section>
+
+    <section class="story-text">
+        <img src="images/IMG_9523.png" alt="Crying Ghosty" class="crying-small">
+        <p>Don’t want to buy our coin? We need this money to return to Ghosty Land. Please help us!</p>
+    </section>
+
+    <section class="video-gallery">
+        <div class="video-item">
+            <video src="videos/video1.mp4" controls></video>
+            <p>GHOSTY helping player to fly</p>
+        </div>
+        <div class="video-item">
+            <video src="videos/video2.mp4" controls></video>
+            <p>GHOSTY creating cover for player</p>
+        </div>
+        <div class="video-item">
+            <video src="-2253734869777792403" controls></video>
+            <p>GHOSTY recalling the player</p>
+        </div>
+    </section>
+
+    <section class="photo-gallery">
+        <img src="images/IMG_9518.png" alt="GHOSTY">
+        <img src="images/904D2262-38BB-4924-AA13-64DA65D08A35.png" alt="GHOSTY">
+        <img src="images/IMG_9512.png" alt="GHOSTY">
+    </section>
+
+    <footer>
+        <span class="made-by">created by ROMY</span>
+        <p class="neon-text">PUMP.FUN ALWAYS BEST</p>
+    </footer>
+
+    <script>
+        function copyAddress() {
+            const address = document.getElementById('contract-address').innerText;
+            navigator.clipboard.writeText(address);
+            alert('Address copied!');
+        }
+    </script>
+</body>
+</html>
