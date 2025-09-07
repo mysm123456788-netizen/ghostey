@@ -71,3 +71,22 @@ footer {
     left: 10px;
     bottom: 10px;
 }
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.video-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.video-item {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
